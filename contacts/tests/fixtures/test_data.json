@@ -1,0 +1,83 @@
+[
+    {
+        "pk": 1,
+        "model": "contacts.contacttype",
+        "fields": {
+            "name": "Teléfono",
+            "description": "Teléfono fijo",
+            "sites": [1, 2, 3, 4]
+        }
+    },
+    {
+        "pk": 2,
+        "model": "contacts.contacttype",
+        "fields": {
+            "name": "Celular",
+            "description": "Teléfono móvil",
+            "sites": [1, 2, 3, 4]
+        }
+    },
+    {
+        "pk": 3,
+        "model": "contacts.contacttype",
+        "fields": {
+            "name": "Correo Electrónico",
+            "description": "Dirección electrónica",
+            "sites": [1, 2, 3, 4]
+        }
+    },
+    {
+        "pk": 1,
+        "model": "contacts.contacttypeicon",
+        "fields": {
+            "type": 1,
+            "context": "fa-icon",
+            "icon": "phone"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "contacts.contacttypeicon",
+        "fields": {
+            "type": 1,
+            "context": "glyphicons-icon",
+            "icon": "earphone"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "contacts.contacttypeicon",
+        "fields": {
+            "type": 2,
+            "context": "fa-icon",
+            "icon": "mobile"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "contacts.contacttypeicon",
+        "fields": {
+            "type": 2,
+            "context": "glyphicons-icon",
+            "icon": "iphone"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "contacts.contacttypeicon",
+        "fields": {
+            "type": 3,
+            "context": "fa-icon",
+            "icon": "envelope"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "contacts.contacttypeicon",
+        "fields": {
+            "type": 3,
+            "context": "glyphicons-icon",
+            "icon": "envelope"
+        }
+    }
+]
