@@ -1,12 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name = "django-allcontacts",
-    #url = "http://github.com/suselrd/django-allcontacts/",
+    url = "http://github.com/suselrd/django-allcontacts/",
     author = "Susel Ruiz Duran",
     author_email = "suselrd@gmail.com",
     version = "0.1.0",
-    packages = ["contacts"],
+    packages = find_packages(),
     include_package_data=True,
     zip_safe=False,
     description = "Contacts for Django",
