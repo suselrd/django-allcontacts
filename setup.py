@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     name = "django-allcontacts",
-    #url = "http://github.com/suselrd/django-allcontacts/",
+    url = "http://github.com/suselrd/django-allcontacts/",
     author = "Susel Ruiz Duran",
     author_email = "suselrd@gmail.com",
     version = "0.1.0",
-    packages = ["contacts"],
+    packages = ["contacts", "contacts.templatetags", "contacts.migrations"],
     include_package_data=True,
     zip_safe=False,
     description = "Contacts for Django",
