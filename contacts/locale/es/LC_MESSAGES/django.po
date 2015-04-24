@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allcontacts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-25 23:46-0500\n"
+"POT-Creation-Date: 2015-04-24 09:00-0500\n"
 "PO-Revision-Date: 2014-09-25 23:46-0500\n"
 "Last-Translator: Susel Ruiz <suselrd@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -21,14 +21,66 @@ msgstr ""
 msgid "--Type (*)--"
 msgstr "--Tipo (*)--"
 
-#: models.py:42
-msgid "content type"
-msgstr "tipo de contenido"
+#: models.py:14
+msgid "Name"
+msgstr "Nombre"
 
-#: models.py:44
-msgid "object ID"
-msgstr "id de objeto"
+#: models.py:15
+msgid "Description"
+msgstr "Descripción"
+
+#: models.py:16
+msgid "Sites"
+msgstr "Sitios"
+
+#: models.py:22
+msgid "Contact Type"
+msgstr "Tipo de Contacto"
+
+#: models.py:23
+msgid "Contact Types"
+msgstr "Tipos de Contacto"
+
+#: models.py:34 models.py:57
+msgid "Type"
+msgstr "Tipo"
+
+#: models.py:35
+msgid "Context"
+msgstr "Contexto"
+
+#: models.py:36
+msgid "Icon"
+msgstr "Ícono"
+
+#: models.py:48
+msgid "Content Type"
+msgstr "Tipo de Contenido"
+
+#: models.py:50
+msgid "Object ID"
+msgstr "ID de Objeto"
+
+#: models.py:53
+msgid "Contact Type Label"
+msgstr "Nombre de Tipo de Contenido"
+
+#: models.py:55
+msgid "Value"
+msgstr "Valor"
+
+#: models.py:56
+msgid "Comments"
+msgstr "Comentarios"
+
+#: models.py:62
+msgid "Contact"
+msgstr "Contacto"
+
+#: models.py:63
+msgid "Contacts"
+msgstr "Contactos"
 
 #: templatetags/contact_tags.py:23
 msgid "The object must be a contact instance"
-msgstr "El objeto debe ser una instancia de Contact"
+msgstr "El objeto debe ser una instancia de Contacto"

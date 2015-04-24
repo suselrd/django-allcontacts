@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allcontacts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-25 23:46-0500\n"
+"POT-Creation-Date: 2015-04-24 09:00-0500\n"
 "PO-Revision-Date: 2014-09-25 23:46-0500\n"
 "Last-Translator: Susel Ruiz <suselrd@gmail.com>\n"
 "Language-Team: English\n"
@@ -20,12 +20,64 @@ msgstr ""
 msgid "--Type (*)--"
 msgstr ""
 
-#: models.py:42
-msgid "content type"
+#: models.py:14
+msgid "Name"
 msgstr ""
 
-#: models.py:44
-msgid "object ID"
+#: models.py:15
+msgid "Description"
+msgstr ""
+
+#: models.py:16
+msgid "Sites"
+msgstr ""
+
+#: models.py:22
+msgid "Contact Type"
+msgstr ""
+
+#: models.py:23
+msgid "Contact Types"
+msgstr ""
+
+#: models.py:34 models.py:57
+msgid "Type"
+msgstr ""
+
+#: models.py:35
+msgid "Context"
+msgstr ""
+
+#: models.py:36
+msgid "Icon"
+msgstr ""
+
+#: models.py:48
+msgid "Content Type"
+msgstr ""
+
+#: models.py:50
+msgid "Object ID"
+msgstr ""
+
+#: models.py:53
+msgid "Contact Type Label"
+msgstr ""
+
+#: models.py:55
+msgid "Value"
+msgstr ""
+
+#: models.py:56
+msgid "Comments"
+msgstr ""
+
+#: models.py:62
+msgid "Contact"
+msgstr ""
+
+#: models.py:63
+msgid "Contacts"
 msgstr ""
 
 #: templatetags/contact_tags.py:23

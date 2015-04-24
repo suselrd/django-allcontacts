@@ -7,6 +7,11 @@ Contacts for Django>=1.6.1
 
 Changelog
 =========
+0.1.2
+-----
+
+Completed spanish translations.
+
 0.1.1
 -----
 
