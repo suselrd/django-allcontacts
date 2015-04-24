@@ -62,6 +62,9 @@ class Contact(models.Model):
         verbose_name = _('Contact')
         verbose_name_plural = _('Contacts')
 
+    def __unicode__(self):
+        return u"%s-%s" % (self.type, self.content_object)
+
 
 @receiver(pre_save, sender=Contact, dispatch_uid='contact_pre_save')
 def contact_pre_save_handler(instance, raw, **kwargs):

@@ -7,6 +7,12 @@ Contacts for Django>=1.6.1
 
 Changelog
 =========
+0.1.3
+-----
+
+Customized Contacts unicode representation.
+
+
 0.1.2
 -----
 
